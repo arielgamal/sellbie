@@ -1,4 +1,3 @@
-'use client'
 import Agents from "./components/agents/page";
 import AskchatCRM from "./components/askchatCRM/page";
 import Brands from "./components/brands/page";

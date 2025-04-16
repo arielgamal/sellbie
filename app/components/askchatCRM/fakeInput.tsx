@@ -1,3 +1,4 @@
+"use client"
 import { FaArrowUp } from "react-icons/fa";
 import { inputTexts } from "@/utils/input-text";
 import { useEffect, useState } from "react";
