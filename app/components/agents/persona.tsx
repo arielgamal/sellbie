@@ -11,7 +11,7 @@ type Props = {
 export default function Persona({image, icon, name, description}: Props) {
     return (
         <div className="relative">
-            <Image className="absolute -left-21 -top-10" src={image} alt={name} width={120} height={132} />
+            <Image className="absolute -left-30 -top-13" src={image} alt={name} width={150} height={150} />
             <div className="w-[436px] h-[56px] border-1 border-border-primary bg-white rounded-[40px] flex items-center">
                 <div className="ml-8 bg-content-tertiary w-[49px] h-[32px] flex items-center justify-center rounded-[20px] text-white">
                     {icon}

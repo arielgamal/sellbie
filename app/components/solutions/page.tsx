@@ -5,10 +5,10 @@ import miniAvatar from "@/public/miniavatar.png";
 
 export default function Solutions() {
   return (
-    <div className="p-16 bg-gray-bg flex pb-[180px]">
-      <div className="text-brand-purple text-[30px]/10 w-full">
+    <div className="p-16 bg-gray-bg flex pb-[180px] items-center justify-center">
+      <div className="text-brand-purple text-[30px]/10 w-full max-w-[1440px]">
         <div className="flex justify-between w-full items-center">
-          <div>
+          <div className="">
             <p className="font-normal">Descubra mais</p>
             <p className=""><span className="text-[64px] font-black">soluções</span> feitas para</p>
             <p><span className="font-black">resolver as dores</span> de nossos clientes!</p>

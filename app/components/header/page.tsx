@@ -11,7 +11,7 @@ export default function Header() {
       <div className="flex gap-2 text-[10px] sm:gap-3 md:gap-9 md:text-[16px] font-medium text-[#140B1D]">
         {
           headerOptions.map((option, index) => (
-            <Link className="hidden" key={index} href={option.href}>{option.name}</Link>
+            <Link className="" key={index} href={option.href}>{option.name}</Link>
           ))
         }
       </div>

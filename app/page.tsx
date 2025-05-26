@@ -11,7 +11,7 @@ import Customers from "./components/customers/page";
 export default function Home() {
   return (
     <main className="flex justify-center w-full">
-      <section className="w-full max-w-[1440px] ">
+      <section className="w-full">
         <Header />
         <AskchatCRM />
         <Agents />

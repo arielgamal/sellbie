@@ -5,8 +5,9 @@ import {
   CarouselContent,
   CarouselItem
 } from "../ui/carousel"
-import logo from '@/public/logo.png';
+// import logo from '@/public/logo.png';
 import Autoplay from "embla-carousel-autoplay";
+import { brands } from "@/utils/brands";
 
 
 export default function Brands() {
@@ -23,10 +24,10 @@ export default function Brands() {
         })
       ]} opts={{align: "start", loop: true, duration: 30000}} className="w-full">
         <CarouselContent>
-        {Array.from({ length: 20 }).map((_, index) => (
+        {brands.map((brand, index) => (
           <CarouselItem key={index} className="sm:basis-1/6 md:basis-1/6 lg:basis-1/8 pl-8">
             <div className="p-1">
-              <Image src={logo} alt="logo" width={143} height={100} />
+              <Image src={brand.image} alt={brand.name} width={200} height={100} />
             </div>
           </CarouselItem>
         ))}

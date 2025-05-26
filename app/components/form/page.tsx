@@ -47,8 +47,8 @@ export default function Form() {
   }, []);
 
   return (
-    <div id='form' className="gradient-bg h-[850px]">
-      <div className="relative">
+    <div id='form' className="gradient-bg h-[850px] flex justify-center">
+      <div className="relative w-full max-w-[1440px]">
         <div className="absolute z-10 -top-15 w-[681px] left-[50px] bg-white rounded-[20px] py-[50px] px-[80px] ml-[134px] shadow-[0px_4px_30px_0px_rgba(0,0,0,0.25)] flex flex-col items-center justify-center">
           <p className="text-brand-purple text-[34px]/5 font-bold">Solicite uma demo agora!</p>
           <div className="w-[600px]">

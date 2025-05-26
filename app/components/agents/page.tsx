@@ -18,7 +18,7 @@ export default function Agents() {
     <div className="pt-[54px] min-h-[625px] bg-accent-purple w-full flex items-center flex-col">
       <p className="text-[26px] text-brand-purple font-light">Adicione ao ChatCRM os <span className="text-[48px]">Agentes de IA</span></p>
       <p className="text-[26px] text-brand-purple font-bold">e potencialize seus resultados!</p>
-      <div className="lg:grid lg:grid-cols-2 grid grid-cols-1 gap-x-28 gap-y-16 mt-17">
+      <div className="lg:grid lg:grid-cols-2 grid grid-cols-1 gap-x-36 gap-y-24 mt-17">
         {
           personas.map((element: PersonaProps) => (
             <div key={element.id}>

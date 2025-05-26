@@ -24,7 +24,7 @@ export default function Customers() {
           {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index} className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
             <div className="w-[320px] h-[332px] p-[30px] bg-white border-1 rounded-[40px]" style={{
-              // opacity: 0.4 + Math.random() * (0.4)
+              opacity: 0.4 + Math.random() * (0.4)
             }}>
               <div className="rounded-full bg-content-disabled w-[94px] h-[94px]" />
               <p className="text-[14px] font-bold text-brand-purple mt-[10px]">Roger Sabbag</p>

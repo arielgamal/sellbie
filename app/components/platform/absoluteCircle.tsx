@@ -1,4 +1,5 @@
 import Image from "next/image";
+import circle from '@/public/circle.webp';
 import teste from '@/public/teste.png';
 import OrangeButton from "./orangeButton";
 
@@ -12,8 +13,9 @@ const array = [
 
 export default function AbsoluteCircle() {
   return (
-    <div className="relative w-full max-w-[600px]">
-      <Image src={teste} alt='circle' className="opacity-[0.3] w-full max-w-[600px] h-[760px]" />
+    <div className="relative w-full max-w-[660px] 2xl:max-w-[760px]">
+      <Image src={circle} alt='circle' className="hidden 2xl:flex opacity-[0.3] w-full max-w-[760px] h-[760px]" />
+      <Image src={teste} alt='circle' className="2xl:hidden opacity-[0.3] w-full max-w-[660px] h-[760px]" />
       {
         array.map((e, index) => (
           <div key={index} style={{ top: e.top, left: e.left, right: e.right, bottom: e.bottom }} className={`absolute`}>
