@@ -8,22 +8,22 @@ const list = [
     {
         id: 1,
         text: "Criação de campanhas",
-        icons: <TbCalendarPlus size={18} />
+        icons: <TbCalendarPlus size={18} className="text-secundary" />
     },
     {
         id: 2,
         text: "Geração de bases",
-        icons: <LuUsers size={18} />
+        icons: <LuUsers size={18} className="text-secundary" />
     },
     {
         id: 3,
         text: "Propensão de compras",
-        icons: <RiShoppingBagLine size={18} />
+        icons: <RiShoppingBagLine size={18} className="text-secundary" />
     },
     {
         id: 4,
         text: "Indicadores de CRM",
-        icons:  <AiOutlinePieChart size={18} />
+        icons:  <AiOutlinePieChart size={18} className="text-secundary" />
     },
     {
         id: 5,

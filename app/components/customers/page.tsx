@@ -29,7 +29,7 @@ export default function Customers() {
               <div className="rounded-full bg-content-disabled w-[94px] h-[94px]" />
               <p className="text-[14px] font-bold text-brand-purple mt-[10px]">Roger Sabbag</p>
               <p className="text-[14px] text-brand-purple">CEO Via Mia</p>
-              <p className="text-[14px] text-content-primary mt-[22px]">“Com o ChatCRM, identificamos rapidamente clientes prontos para comprar e os produtos mais demandados. Isso otimizou nossas campanhas e <span className="text-content-tertiary font-bold">aumentou nossas vendas em X%!”</span></p>
+              <p className="text-[14px] text-content-primary mt-[22px]">“Com o ChatCRM, identificamos rapidamente clientes prontos para comprar e os produtos mais demandados. Isso otimizou nossas campanhas e <span className="text-content-tertiary font-bold">aumentou nossas vendas em 35%!”</span></p>
           </div>
           </CarouselItem>
           ))}
