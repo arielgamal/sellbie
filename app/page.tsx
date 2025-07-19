@@ -18,10 +18,10 @@ export default function Home() {
         <Agents />
         <Platform />
         <Brands />
-        <Customers />
+        {/* <Customers />
         <Solutions />
         <Form />
-        <Footer />
+        <Footer /> */}
       </section>
     </main>
   );
