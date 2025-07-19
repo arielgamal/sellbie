@@ -52,7 +52,7 @@ export default function Form() {
         <div className="absolute z-10 -top-15 w-[681px] left-[50px] bg-white rounded-[20px] py-[50px] px-[80px] ml-[134px] shadow-[0px_4px_30px_0px_rgba(0,0,0,0.25)] flex flex-col items-center justify-center">
           <p className="text-brand-purple text-[34px]/5 font-bold">Solicite uma demo agora!</p>
           <div className="w-[600px]">
-            <div className="mt-[40px]" id="novo-site-formulario-2025-889bdcd0e546374e2f21" />
+            <div className="mt-[40px]" role="main" id="novo-site-formulario-2025-889bdcd0e546374e2f21" />
           </div>
           {/* <form onSubmit={handleSubmit(handleform)} className="mt-[40px] flex flex-col items-center gap-[12px]">
             <input className="bg-gray-bg rounded-[8px] w-[466px] h-[49px] p-5" placeholder="Nome completo*" {...register('name')} />

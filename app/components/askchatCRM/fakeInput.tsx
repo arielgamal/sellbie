@@ -33,8 +33,8 @@ export default function FakeInput() {
     return () => clearTimeout(timeout);
   }, [displayText, isDeleting, index]);
   return (
-    <div className="border-1 w-full max-w-[512px] h-[56px] rounded-xl bg-white border-tertiary flex justify-between p-[16px] my-[40px]">
-      <p className="text-secundary">
+    <div className="border-1 w-full max-w-[512px] h-[56px] rounded-xl bg-white border-tertiary flex justify-between items-center p-[16px] my-[40px]">
+      <p className="text-secundary text-[10px] sm:text-[12px] md:text-[14px]">
         {displayText}
       </p>
       <div className="text-white rounded-full bg-primary w-[24px] h-[24px] flex justify-center items-center">

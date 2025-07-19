@@ -15,12 +15,12 @@ export default function Home() {
         <Header />
         <AskchatCRM />
         <Agents />
-        <Platform />
-        <Brands />
-        <Customers />
+        {/* <Platform /> */}
+        {/* <Brands /> */}
+        {/* <Customers />
         <Solutions />
         <Form />
-        <Footer />
+        <Footer /> */}
       </section>
     </main>
   );
