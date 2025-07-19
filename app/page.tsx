@@ -1,3 +1,4 @@
+
 import Agents from "./components/agents/page";
 import AskchatCRM from "./components/askchatCRM/page";
 import Brands from "./components/brands/page";
@@ -15,12 +16,12 @@ export default function Home() {
         <Header />
         <AskchatCRM />
         <Agents />
-        {/* <Platform /> */}
-        {/* <Brands /> */}
-        {/* <Customers />
+        <Platform />
+        <Brands />
+        <Customers />
         <Solutions />
         <Form />
-        <Footer /> */}
+        <Footer />
       </section>
     </main>
   );

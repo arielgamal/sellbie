@@ -14,15 +14,15 @@ interface AccordionProps {
 export default function Platform() {
   return (
     <div className="w-full flex items-center justify-center">
-      <div className="w-full grid grid-cols-1 md:grid md:grid-cols-2 mt-[75px]">
+      <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-10 mt-[75px] px-4 xl:px-0">
         <div id='acordeon-div' className="w-full">
-          <div className="mt-[25px] w-[417px] ml-[118px]">
-              <div className="pt-[35px] flex flex-col gap-3">
+          <div className="mt-[25px] w-full max-w-[417px] mx-auto xl:ml-[118px] px-4 xl:px-0">
+              <div className="pt-[35px] flex flex-col gap-3 text-center md:text-left">
                   <p className="text-brand-purple text-[18px] font-light">O que está por trás e torna tudo isso possível?</p>
                   <p className="text-brand-purple text-[30px]/8 font-normal">Uma plataforma de CRM consolidada, projetada para <span className="text-orange-primary">impulsionar o crescimento e </span><span className="text-orange-primary text-[38px] font-black">transformar negócios!</span></p>
               </div>
           </div>
-          <div className="w-[577px] h-[550px] ml-[118px] mt-[88px]">
+          <div className="w-full max-w-[577px] h-auto mx-auto xl:ml-[118px] mt-[88px] px-4 xl:px-0">
             <p className="text-brand-purple text-[14px]/8 font-light">Saiba mais:</p>
             <Accordion type="single" collapsible className="border-1 border-solid border-[#E5E5E5] rounded-[20px]">
               {
@@ -50,7 +50,7 @@ export default function Platform() {
             </Accordion>
           </div>
         </div>
-        <div id='circle-div' className="hidden md:flex md:justify-end">
+        <div id='circle-div' className="hidden xl:flex xl:justify-center">
           <AbsoluteCircle />
         </div>
       </div>
