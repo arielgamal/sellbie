@@ -15,7 +15,6 @@ import polishop from '../public/brand/polishop.jpg';
 import bemol from '../public/brand/bemol.jpg';
 import grupo_oscar from '../public/brand/grupo_oscar.jpg';
 import orthopride from '../public/brand/orthopride.jpg';
-import dress_to from '../public/brand/dress_to.jpg';
 import calzedonia from '../public/brand/calzedonia.jpg';
 import intimissi from '../public/brand/intimissi.jpg';
 import dengo from '../public/brand/dengo.jpg';
@@ -110,31 +109,26 @@ export const brands = [
   },
   {
     id: 18,
-    name: 'Dress To',
-    image: dress_to,
-  },
-  {
-    id: 19,
     name: 'Calzedonia',
     image: calzedonia,
   },
   {
-    id: 20,
+    id: 19,
     name: 'Intimissi',
     image: intimissi,
   },
   {
-    id: 21,
+    id: 20,
     name: 'Dengo',
     image: dengo,
   },
   {
-    id: 22,
+    id: 21,
     name: 'Abracadabra',
     image: abracadabra,
   },
   {
-    id: 23,
+    id: 22,
     name: 'Le Postiche',
     image: le_postiche,
   },
