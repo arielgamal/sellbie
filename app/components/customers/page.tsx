@@ -24,7 +24,7 @@ export default function Customers() {
           {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index} className="flex justify-center sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
             <div className="w-full max-w-[260px] md:max-w-[300px] lg:max-w-[320px] h-[300px] md:h-[320px] lg:h-[332px] p-[30px] bg-white border-1 rounded-[40px]" style={{
-              opacity: 0.4 + Math.random() * (0.4)
+              opacity: 0.8
             }}>
               <div className="rounded-full bg-content-disabled w-[94px] h-[94px]" />
               <p className="text-[14px] font-bold text-brand-purple mt-[10px]">Roger Sabbag</p>
@@ -42,8 +42,8 @@ export default function Customers() {
         </div>
       </Carousel>
 
-      <Link href='#form' className="text-brand-purple flex items-center justify-center w-[calc(100%_-_3rem)] mx-6 md:mx-0 md:w-[274px] h-[50px] mt-4 md:mt-0 rounded-[40px] bg-white">
-        <p className="text-[18px]">Transforme seu CRM agora</p>
+      <Link href='#form' className="text-brand-purple flex items-center justify-center w-[357px] font-semibold mx-6 md:mx-0 md:w-[274px] h-[50px] mt-4 md:mt-0 rounded-[40px] bg-white">
+        <p className="text-[16px]">Quero transformar meu CRM agora</p>
       </Link>
     </div>
   )

@@ -28,7 +28,7 @@ body {
 
 @layer utilities {
   .gradient-bg {
-    background: linear-gradient(45deg, #EA591C, #9462C1, #EA591C);
+    background: linear-gradient(45deg, #EA591C, #9747FF, #EA591C);
     background-size: 300% 100%;
     animation: moveGradient 30s linear infinite;
   }

@@ -7,7 +7,7 @@ const array = [
   {name: 'Jornadas', top: '180px', right: '', left: '', bottom: ''},
   {name: 'Campanhas', top: '100px', right: '', left: '290px', bottom: ''}, 
   {name: 'Inteligencia de dados', top: '250px', right: '122px', left: '', bottom: ''}, 
-  {name: 'CPD', top: '350px', Righteous: '', left: '210px', bottom: ''},
+  {name: 'CDP', top: '350px', Righteous: '', left: '210px', bottom: ''},
   {name: 'Canais', top: '', right: '', left: '15px', bottom: '380px'}
 ]
 

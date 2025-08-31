@@ -70,7 +70,7 @@ export default function Solutions() {
     <div className="bg-gray-bg flex items-center justify-center py-16">
       <div className="w-full max-w-[1440px] px-4 md:px-10 text-brand-purple">
         {/* Cabeçalho */}
-        <div className="mb-10">
+        <div className="mb-10 lg:absolute">
           <p className="font-normal text-[18px] md:text-[20px]">Descubra mais</p>
           <p className="text-[40px] md:text-[64px] font-black leading-none">
             <span className="text-brand-purple">soluções</span> feitas para
@@ -81,11 +81,11 @@ export default function Solutions() {
         </div>
 
         {/* Layout Desktop (≥lg) */}
-        <div className="hidden lg:block pb-[180px]">
+        <div className="hidden lg:block pb-[50px]">
           {/* Primeira linha (Encarteiramento Flexível) */}
           <div className="flex justify-end w-full items-center">
             <div className="relative mr-12">
-              <BigCard className="w-[295px] z-50 relative">
+              <BigCard className="w-[295px] relative">
                 <p className="text-[20px]/5 text-content-primary font-black tracking-[0.3px]">
                   Encarteiramento
                 </p>
@@ -96,7 +96,7 @@ export default function Solutions() {
                   Distribua <span className="text-content-tertiary font-bold">clientes para os vendedores</span> de forma estratégica, seguindo as regras do seu negócio com flexibilidade.
                 </p>
               </BigCard>
-              <SmallCard className="w-[375px] h-[101px] absolute right-[280px] bottom-[10px] z-10">
+              <SmallCard className="w-[375px] h-[100px] absolute right-[280px] bottom-[10px]">
                 <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5">
                   <p className="font-semibold">Gerente de loja</p>
@@ -118,7 +118,7 @@ export default function Solutions() {
                   Suporte especializado para <span className="text-content-tertiary font-bold">pilotar a plataforma</span> Sellbie com eficiência e maximizar seus resultados.
                 </p>
               </BigCard>
-              <SmallCard className="w-[323px] h-[81px] left-[220px] top-[-10px] z-10 absolute">
+              <SmallCard className="w-[323px] h-[81px] left-[235px] top-[-10px] z-10 absolute">
                 <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5">
                   <p className="font-semibold">CEO</p>
@@ -178,7 +178,7 @@ export default function Solutions() {
                   Uma ferramenta fácil de usar, permitindo que qualquer pessoa <span className="text-content-tertiary font-bold">crie seus e-mails</span> de forma profissional, sem necessidade de conhecimento técnico.
                 </p>
               </BigCard>
-              <SmallCard className="w-[347px] h-[101px] left-[240px] top-[100px] z-10 absolute mr-[50px]">
+              <SmallCard className="w-[347px] h-[101px] left-[250px] top-[100px] z-10 absolute mr-[50px]">
                 <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5">
                   <p className="font-semibold">Gerente de marketing</p>
@@ -197,7 +197,7 @@ export default function Solutions() {
                   Uma API que fornece acesso a todos os dados tratados do CDP da Sellbie, garantindo <span className="text-content-tertiary font-bold">informações organizadas</span>.
                 </p>
               </BigCard>
-              <SmallCard className="w-[362px] h-[101px] top-[-20px] right-[-340px] z-10 absolute">
+              <SmallCard className="w-[362px] h-[101px] top-[-20px] right-[-350px] z-10 absolute">
                 <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5">
                   <p className="font-semibold">Diretor de TI</p>

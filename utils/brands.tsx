@@ -53,16 +53,6 @@ export const brands = [
     image: first_class,
   },
   {
-    id: 7,
-    name: 'Telmac',
-    image: telmac,
-  },
-  {
-    id: 8,
-    name: 'Rech',
-    image: rech,
-  },
-  {
     id: 9,
     name: 'Beleza Natural',
     image: beleza_natural,
@@ -88,11 +78,6 @@ export const brands = [
     image: clube_fluminense,
   },
   {
-    id: 14,
-    name: 'Polishop',
-    image: polishop,
-  },
-  {
     id: 15,
     name: 'Bemol',
     image: bemol,
@@ -116,11 +101,6 @@ export const brands = [
     id: 19,
     name: 'Intimissi',
     image: intimissi,
-  },
-  {
-    id: 20,
-    name: 'Dengo',
-    image: dengo,
   },
   {
     id: 21,

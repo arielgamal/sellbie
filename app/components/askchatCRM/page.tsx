@@ -19,7 +19,7 @@ export default function AskchatCRM() {
       </div>
       <FakeInput />
         <IaButtons />
-      <Link href='#form' className="text-white flex items-center justify-center w-[173px] h-[50px] mt-[90px] rounded-[40px] bg-brand-purple">
+      <Link href='#form' className="text-white font-semibold flex items-center justify-center w-[357px] h-[46px] mt-[90px] rounded-[40px] bg-brand-purple">
         <p className="font-normal">Solicitar Demo</p>
       </Link>
     </div>
