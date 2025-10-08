@@ -2,10 +2,9 @@ import Link from "next/link"
 import {
     Carousel,
     CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
+    CarouselItem
     } from "../ui/carousel"
+import { carouselData } from "@/utils/carousel"
 
 export default function Customers() {
   return (
@@ -21,24 +20,22 @@ export default function Customers() {
         className="w-full max-w-[1000px] md:max-w-[1200px] lg:max-w-[1440px] my-10"
         >
         <CarouselContent>
-          {Array.from({ length: 5 }).map((_, index) => (
+          {carouselData.map((_, index) => (
           <CarouselItem key={index} className="flex justify-center sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
             <div className="w-full max-w-[260px] md:max-w-[300px] lg:max-w-[320px] h-[300px] md:h-[320px] lg:h-[332px] p-[30px] bg-white border-1 rounded-[40px]" style={{
               opacity: 0.8
             }}>
               <div className="rounded-full bg-content-disabled w-[94px] h-[94px]" />
-              <p className="text-[14px] font-bold text-brand-purple mt-[10px]">Roger Sabbag</p>
-              <p className="text-[14px] text-brand-purple">CEO Via Mia</p>
-              <p className="text-[14px] text-content-primary mt-[22px]">“Com o ChatCRM, identificamos rapidamente clientes prontos para comprar e os produtos mais demandados. Isso otimizou nossas campanhas e <span className="text-content-tertiary font-bold">aumentou nossas vendas em 35%!”</span></p>
+              <p className="text-[14px] font-bold text-brand-purple mt-[10px]">{carouselData[index].name}</p>
+              <p className="text-[14px] text-brand-purple">CEO</p>
+              <p className="text-[14px] text-content-primary mt-[22px]">{carouselData[index].text}</p>
           </div>
           </CarouselItem>
           ))}
         </CarouselContent>
         <div className="hidden lg:block">
-          <CarouselPrevious />
         </div>
         <div className="hidden lg:block">
-          <CarouselNext />
         </div>
       </Carousel>
 

@@ -34,7 +34,7 @@ export default function Agents() {
           ))
         }
       </div>
-      <Link href='#form' className="text-white mt-[91px] mb-[55px] flex items-center justify-center gap-[10px] font-semibold w-[357px] h-[46px] rounded-[40px] bg-brand-purple">
+      <Link href='#form' className="text-white mt-[91px] mb-[55px] flex items-center justify-center gap-[10px] text-[16px] px-[32px] py-[12px]  font-semibold w-[380px] h-[46px] rounded-[40px] bg-brand-purple">
         <p className="font-normal text-[18px]">Quero saber mais sobre os agentes</p>
         <Image src={star} alt="logo" width={32} height={41} />
       </Link>

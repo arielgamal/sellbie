@@ -68,21 +68,17 @@ export default function Solutions() {
 
   return (
     <div className="bg-gray-bg flex items-center justify-center py-16">
-      <div className="w-full max-w-[1440px] px-4 md:px-10 text-brand-purple">
-        {/* Cabeçalho */}
+      <div className="w-full max-w-[1440px] px-4 text-brand-purple">
         <div className="mb-10 lg:absolute">
           <p className="font-normal text-[18px] md:text-[20px]">Descubra mais</p>
-          <p className="text-[40px] md:text-[64px] font-black leading-none">
-            <span className="text-brand-purple">soluções</span> feitas para
+          <p className=" leading-none">
+            <span className="text-brand-purple font-black text-[40px] md:text-[64px]">soluções</span> <span className="text-[24px] md:text-[30px]">feitas para</span>
           </p>
           <p className="text-[24px] md:text-[30px]">
             <span className="font-black">resolver as dores</span> de nossos clientes!
           </p>
         </div>
-
-        {/* Layout Desktop (≥lg) */}
         <div className="hidden lg:block pb-[50px]">
-          {/* Primeira linha (Encarteiramento Flexível) */}
           <div className="flex justify-end w-full items-center">
             <div className="relative mr-12">
               <BigCard className="w-[295px] relative">
