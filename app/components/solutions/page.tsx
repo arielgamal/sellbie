@@ -67,8 +67,8 @@ export default function Solutions() {
   ];
 
   return (
-    <div className="bg-gray-bg flex items-center justify-center py-16">
-      <div className="w-full max-w-[1440px] px-4 text-brand-purple">
+    <div className="bg-gray-bg flex py-16 md:px-[118px] px-[10px]">
+      <div className="w-full max-w-[1580px] px-4  text-brand-purple">
         <div className="mb-10 lg:absolute">
           <p className="font-normal text-[18px] md:text-[20px]">Descubra mais</p>
           <p className=" leading-none">
