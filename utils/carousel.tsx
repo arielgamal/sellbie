@@ -6,7 +6,7 @@ export const carouselData = [
     id: 1,
     name: "Vix Paula Hermanny:",
     text: "Com a Propensão de Compra no App do Vendedor, alcançamos resultados impressionantes. Conseguimos aumentar em 39,81% o nosso ticket médio, além de elevar em 74,28% o nosso LTV, mostrando que os clientes estão cada vez mais fiéis e engajados. Outro destaque foi a redução de 54,13% no churn, um marco importante para a retenção da nossa base.",
-    image: viamia,
+    image: vix,
   },
   {
     id: 2,
