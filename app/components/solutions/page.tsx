@@ -263,6 +263,8 @@ export default function Solutions() {
             <div className="hidden md:block">
               <CarouselNext />
             </div>
+              <CarouselPrevious className="left-0 top-1/2 -translate-y-1/2 sm:-left-12 sm:top-1/2 sm:-translate-y-1/2 sm:inline-flex text-black" />
+              <CarouselNext className="right-0 top-1/2 -translate-y-1/2 sm:-right-12 sm:top-1/2 sm:-translate-y-1/2 sm:inline-flex text-black" />
           </Carousel>
         </div>
       </div>

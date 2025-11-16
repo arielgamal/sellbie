@@ -2,8 +2,10 @@ import Link from "next/link"
 import {
   Carousel,
   CarouselContent,
-  CarouselItem
-  } from "../ui/carousel"
+  CarouselItem,
+  CarouselPrevious,
+  CarouselNext,
+} from "../ui/carousel"
 import { carouselData } from "@/utils/carousel"
 import Image from "next/image"
 
@@ -26,21 +28,25 @@ export default function Customers() {
               <div className="w-full max-w-[320px] md:max-w-[380px] lg:max-w-[380px] h-[450px] md:h-[380px] lg:h-[410px] p-[30px] bg-white border-1 rounded-[40px]" style={{
                 opacity: 0.8
               }}>
-                <Image
-                  src={element.image}
-                  alt={element.name}
-                  className="rounded-full bg-content-disabled w-[90px] h-[94px]" 
-                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, (max-width: 1280px) 16vw, 12vw"
-                  priority={index < 8}
-                />
-                <p className="text-[14px] font-bold text-brand-purple mt-[10px]">{element.name}</p>
+                <div className="flex items-center justify-left gap-4">
+                  <Image
+                    src={element.image}
+                    alt={element.name}
+                    className="rounded-full bg-content-disabled w-[90px] h-[94px]" 
+                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, (max-width: 1280px) 16vw, 12vw"
+                    priority={index < 8}
+                  />
+
+                  <p className="text-[16px] font-bold text-brand-purple mt-[10px]">{element.name}</p>
+                </div>
+                {/* <p className="text-[14px] font-bold text-brand-purple mt-[10px]">{element.name}</p> */}
                 <p className="text-[14px] text-content-primary mt-[22px]">{element.text}</p>
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
-        {/* <CarouselPrevious className="block sm:block md:block lg:block" />
-        <CarouselNext className="block sm:block md:block lg:block" /> */}
+        <CarouselPrevious className="left-4 top-1/2 -translate-y-1/2 sm:-left-12 sm:top-1/2 sm:-translate-y-1/2 sm:inline-flex" />
+        <CarouselNext className="right-4 top-1/2 -translate-y-1/2 sm:-right-12 sm:top-1/2 sm:-translate-y-1/2 sm:inline-flex" />
       </Carousel>
 
       <Link href='#form' className="text-brand-purple flex items-center justify-center w-[357px] font-semibold mx-6 md:mx-0 md:w-[320px] px-[32px] h-[44px] mt-4 md:mt-0 rounded-[40px] bg-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
