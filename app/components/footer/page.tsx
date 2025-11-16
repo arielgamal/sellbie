@@ -2,12 +2,11 @@ import logo from '@/public/logo.png';
 import Image from 'next/image';
 import { FaLinkedin } from 'react-icons/fa';
 import { RiInstagramFill } from 'react-icons/ri';
-import { MdEmail } from "react-icons/md";
 import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <div className="bg-gray-bg h-[120px] pt-[50px] md:px-[118px] px-[10px]">
+    <div className="bg-gray-bg h-[120px] pt-[50px] md:px-[118px] px-[16px]">
       <div className="flex justify-between text-content-primary">
         <div className=''>
           <Image src={logo} alt="logo" width={143} height={100} />
@@ -74,9 +73,9 @@ export default function Footer() {
             <Link target='_blank' href={'https://www.instagram.com/sellbiecrm'} className='flex items-center justify-center w-[54px] h-[54px] bg-white rounded-lg'>
               <RiInstagramFill size={24} />
             </Link>
-            <Link target='_blank' href={'comercial@sellbie.com.br'} className='flex items-center justify-center w-[54px] h-[54px] bg-white rounded-lg'>
+            {/* <Link target='_blank' href={'comercial@sellbie.com.br'} className='flex items-center justify-center w-[54px] h-[54px] bg-white rounded-lg'>
               <MdEmail size={24} />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ interface AccordionProps {
 
 export default function Platform() {
   return (
-    <div className="w-full flex items-center justify-center">
+    <div className="w-full flex items-center justify-center px-[16px]">
       <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-10 mt-[75px] px-4 xl:px-0">
         <div id='acordeon-div' className="w-full">
           <div className="mt-[25px] w-full max-w-[417px] mx-auto xl:ml-[118px] px-4 xl:px-0">

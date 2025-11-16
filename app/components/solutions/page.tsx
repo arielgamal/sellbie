@@ -1,7 +1,15 @@
 import Image from "next/image";
 import BigCard from "./bigCard";
 import SmallCard from "./smallCard";
-import miniAvatar from "@/public/miniavatar.png";
+import ceo from "@/public/ceo.png";
+import gerente from "@/public/gerente.png";
+import supervisor from "@/public/supervisor.png";
+import diretorc from "@/public/diretorc.png";
+import diretort from "@/public/diretort.png";
+import gerente2 from "@/public/gerente2.png";
+
+
+
 import {
     Carousel,
     CarouselContent,
@@ -23,6 +31,7 @@ export default function Solutions() {
       persona: "Gerente de loja",
       quote:
         "Os clientes que são distribuídos para meus vendedores não fazem sentido pro meu negócio.",
+      miniAvatar: gerente,
     },
     {
       title: "Consulting",
@@ -31,6 +40,7 @@ export default function Solutions() {
       persona: "CEO",
       quote:
         "Não tenho uma equipe para tocar a operação do projeto de CRM.",
+      miniAvatar: ceo,
     },
     {
       title: "Cashback",
@@ -39,6 +49,7 @@ export default function Solutions() {
       persona: "Supervisor comercial",
       quote:
         "Quero que meu cashback e outras promoções se integrem ao CRM para mais resultados, sem serem genéricos.",
+      miniAvatar: supervisor,
     },
     {
       title: "Painel 360º",
@@ -47,6 +58,7 @@ export default function Solutions() {
       persona: "Diretor Comercial",
       quote:
         "Quero criar relatórios personalizados para acompanhar e reportar os resultados comerciais de forma mais precisa.",
+      miniAvatar: diretorc,
     },
     {
       title: "Editor de HTML",
@@ -55,6 +67,7 @@ export default function Solutions() {
       persona: "Gerente de marketing",
       quote:
         "Minha equipe não tem a capacitação necessária para criar os HTMLs de e-mail da marca.",
+      miniAvatar: diretort,
     },
     {
       title: "API de Retorno",
@@ -63,11 +76,12 @@ export default function Solutions() {
       persona: "Diretor de TI",
       quote:
         "Preciso acessar os dados tratados pela Sellbie de forma dinâmica para integrar e utilizar em meus projetos internos.",
+      miniAvatar: gerente2,
     },
   ];
 
   return (
-    <div className="bg-gray-bg flex py-16 md:px-[118px] px-[10px]">
+    <div className="bg-gray-bg flex py-16 md:px-[118px] px-[16px]">
       <div className="w-full max-w-[1580px] px-4  text-brand-purple">
         <div className="mb-10 lg:absolute">
           <p className="font-normal text-[18px] md:text-[20px]">Descubra mais</p>
@@ -93,7 +107,7 @@ export default function Solutions() {
                 </p>
               </BigCard>
               <SmallCard className="w-[375px] h-[100px] absolute right-[280px] bottom-[10px]">
-                <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
+                <Image className="border-1 rounded-full" src={gerente} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5">
                   <p className="font-semibold">Gerente de loja</p>
                   <p className="text-secundary">“Os clientes que são distribuídos para meus vendedores não fazem sentido pro meu negócio.”</p>
@@ -115,7 +129,7 @@ export default function Solutions() {
                 </p>
               </BigCard>
               <SmallCard className="w-[323px] h-[81px] left-[235px] top-[-10px] z-10 absolute">
-                <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
+                <Image className="border-1 rounded-full" src={ceo} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5">
                   <p className="font-semibold">CEO</p>
                   <p className="text-secundary">“Não tenho uma equipe para tocar a operação do projeto de CRM.”</p>
@@ -134,7 +148,7 @@ export default function Solutions() {
                 </p>
               </BigCard>
               <SmallCard className="w-[352px] h-[101px] absolute right-[240px] top-[140px] z-10">
-                <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
+                <Image className="border-1 rounded-full" src={supervisor} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5">
                   <p className="font-semibold">Supervisor comercial</p>
                   <p className="text-secundary">“Quero que meu cashback e outras promoções se integrem ao CRM para mais resultados, sem serem genéricos.”</p>
@@ -153,7 +167,7 @@ export default function Solutions() {
                 </p>
               </BigCard>
               <SmallCard className="w-[375px] h-[101px] absolute right-[220px] top-[100px] z-10">
-                <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
+                <Image className="border-1 rounded-full" src={diretorc} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5 w-[300px]">
                   <p className="font-semibold">Diretor Comercial</p>
                   <p className="text-secundary">“Quero criar relatórios personalizados para acompanhar e reportar os resultados comerciais de forma mais precisa.”</p>
@@ -175,7 +189,7 @@ export default function Solutions() {
                 </p>
               </BigCard>
               <SmallCard className="w-[347px] h-[101px] left-[250px] top-[100px] z-10 absolute mr-[50px]">
-                <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
+                <Image className="border-1 rounded-full" src={diretort} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5">
                   <p className="font-semibold">Gerente de marketing</p>
                   <p className="text-secundary">“Minha equipe não tem a capacitação necessária para criar os HTMLs de e-mail da marca.”</p>
@@ -194,7 +208,7 @@ export default function Solutions() {
                 </p>
               </BigCard>
               <SmallCard className="w-[362px] h-[101px] top-[-20px] right-[-350px] z-10 absolute">
-                <Image className="border-1 rounded-full" src={miniAvatar} alt='mini-avatar' width={32} height={32} />
+                <Image className="border-1 rounded-full" src={gerente2} alt='mini-avatar' width={32} height={32} />
                 <div className="tracking-[0.3px] text-[14px]/5">
                   <p className="font-semibold">Diretor de TI</p>
                   <p className="text-secundary">“Preciso acessar os dados tratados pela Sellbie de forma dinâmica para integrar e utilizar em meus projetos internos.”</p>
@@ -228,7 +242,7 @@ export default function Solutions() {
                     <SmallCard className="">
                       <Image
                         className="border-1 rounded-full"
-                        src={miniAvatar}
+                        src={item.miniAvatar}
                         alt="mini-avatar"
                         width={32}
                         height={32}

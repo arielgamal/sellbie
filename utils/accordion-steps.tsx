@@ -1,7 +1,7 @@
-import { BiCalendarStar, BiCalendarWeek } from "react-icons/bi";
+import { BiSend } from "react-icons/bi";
 import { FiDatabase } from "react-icons/fi";
+import { LuCalendarPlus, LuNetwork } from "react-icons/lu";
 import { RiBrain2Line } from "react-icons/ri";
-import { TiArrowRightOutline } from "react-icons/ti";
 
 export const listAccordion = [
   {
@@ -31,7 +31,7 @@ export const listAccordion = [
   { 
   id: 3,
   name: 'Campanhas',
-  icon: <BiCalendarStar size={18} />,
+  icon: <LuCalendarPlus size={18} />,
   steps: [
       'Quantidade ilimitada de campanhas ativas',
       'Integração com disparadores de e-mail, SMS e WhatsApp',
@@ -44,7 +44,7 @@ export const listAccordion = [
   {
     id: 4,
     name: 'Jornadas',
-    icon: <BiCalendarWeek size={18} />,
+    icon: <LuNetwork size={18} />,
     steps: [
       'Quantidade ilimitada de jornadas',
       'Integração com disparadores de e-mail, SMS e WhatsApp',
@@ -56,7 +56,7 @@ export const listAccordion = [
   {   
     id: 5,
     name: 'Canais',
-    icon: <TiArrowRightOutline size={18} />,
+    icon: <BiSend size={18} />,
     steps: [
       'E-mail',
       'SMS',

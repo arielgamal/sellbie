@@ -7,7 +7,7 @@ import IaButtons from './iaButtons';
 
 export default function AskchatCRM() {
   return (
-    <div className="h-[825px] md:px-[118px] px-[10px] gradient-bg w-full animate-move-gradient flex flex-col items-center text-white">
+    <div className="h-[825px] md:px-[118px] px-[16px] gradient-bg w-full animate-move-gradient flex flex-col items-center text-white">
       <Tag />
       <div className='mt-[100px] sm:mt-[140px] flex items-center justify-center relative'>
         <p className='text-[28px] md:text-[58px]'>Pergunte tudo ao ChatCRM</p> 
@@ -19,7 +19,7 @@ export default function AskchatCRM() {
       </div>
       <FakeInput />
         <IaButtons />
-      <Link href='#form' className="text-white font-semibold flex items-center justify-center text-[16px] w-[357px] h-[46px] px-[32px] py-[12px] mt-[90px] rounded-[40px] bg-brand-purple">
+      <Link href='#form' className="text-white font-semibold flex items-center justify-center text-[16px] w-[357px] shadow-[0_10px_30px_rgba(0,0,0,0.15)] h-[44px] px-[32px] py-[12px] mt-[90px] rounded-[40px] bg-brand-purple">
         <p className="font-normal">Solicitar Demo</p>
       </Link>
     </div>

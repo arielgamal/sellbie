@@ -12,7 +12,7 @@ import { brands } from "@/utils/brands";
 
 export default function Brands() {
   return (
-    <div className="flex flex-col gap-15 mb-10  md:px-[118px] px-[10px]">
+    <div className="flex flex-col gap-15 mb-10  md:px-[118px] px-[16px]">
       <div className="flex items-center mt-6 justify-center text-lg sm:text-xl md:text-2xl font-bold text-brand-purple text-center">
         <p>Junte-se a mais de 150 marcas e leve seu CRM para o próximo nível!</p>
       </div>

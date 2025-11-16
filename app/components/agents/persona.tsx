@@ -30,7 +30,7 @@ export default function Persona({ image, icon, name, description }: Props) {
           className="block md:hidden rounded-full object-cover z-100"
         />
         {/* Card */}
-        <div className="absolute md:left-36 left-14 md:w-[400px] w-[250px] min-h-[56px] border border-border-primary bg-white rounded-[40px] flex items-center px-6 py-3 shadow-sm ">
+        <div className="absolute md:left-36 left-14 md:w-[400px] w-[310px] min-h-[56px] border border-border-primary bg-white rounded-[40px] flex items-center px-6 py-3 shadow-sm ">
             {/* Ícone */}
             <div className="hidden sm:flex items-center justify-center bg-content-tertiary text-white w-[49px] h-[32px] rounded-[20px]">
             {icon}

@@ -15,7 +15,7 @@ interface PersonaProps {
 
 export default function Agents() {
   return (
-    <div className="flex flex-col items-center pt-[54px] min-h-[625px] bg-accent-purple">
+    <div className="flex flex-col items-center px-[16px] pt-[54px] min-h-[625px] bg-accent-purple">
       <div className="w-full flex items-center text-center flex-col">
         <p className="w-[300px] md:w-full text-[22px] md:text-[26px] text-brand-purple font-light">Adicione ao ChatCRM os <span className="md:text-[48px]">Agentes de IA</span></p>
         <p className="text-[22px] md:text-[26px] text-brand-purple font-bold">e potencialize seus resultados!</p>
@@ -34,7 +34,7 @@ export default function Agents() {
           ))
         }
       </div>
-      <Link href='#form' className="text-white mt-[91px] mb-[55px] flex items-center justify-center gap-[10px] text-[16px] px-[32px] py-[12px]  font-semibold w-[380px] h-[46px] rounded-[40px] bg-brand-purple">
+      <Link href='#form' className="text-white mt-[91px] mb-[55px] shadow-[0_10px_30px_rgba(0,0,0,0.15)] flex items-center justify-center gap-[10px] text-[16px] px-[32px] py-[12px]  font-semibold w-[380px] h-[44px] rounded-[40px] bg-brand-purple">
         <p className="font-normal text-[18px]">Quero saber mais sobre os agentes</p>
         <Image src={star} alt="logo" width={32} height={41} />
       </Link>
