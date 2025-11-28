@@ -13,9 +13,7 @@ import gerente2 from "@/public/gerente2.png";
 import {
     Carousel,
     CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
+    CarouselItem
 } from "../ui/carousel";
 
 export default function Solutions() {
@@ -258,13 +256,13 @@ export default function Solutions() {
             </CarouselContent>
             {/* Controles — aparecem a partir do md */}
             <div className="hidden md:block">
-              <CarouselPrevious />
+              {/* <CarouselPrevious /> */}
             </div>
             <div className="hidden md:block">
-              <CarouselNext />
+              {/* <CarouselNext /> */}
             </div>
-              <CarouselPrevious className="left-0 top-1/2 -translate-y-1/2 sm:-left-12 sm:top-1/2 sm:-translate-y-1/2 sm:inline-flex text-black" />
-              <CarouselNext className="right-0 top-1/2 -translate-y-1/2 sm:-right-12 sm:top-1/2 sm:-translate-y-1/2 sm:inline-flex text-black" />
+              {/* <CarouselPrevious className="left-0 top-1/2 -translate-y-1/2 sm:-left-12 sm:top-1/2 sm:-translate-y-1/2 sm:inline-flex text-black" /> */}
+              {/* <CarouselNext className="right-0 top-1/2 -translate-y-1/2 sm:-right-12 sm:top-1/2 sm:-translate-y-1/2 sm:inline-flex text-black" /> */}
           </Carousel>
         </div>
       </div>

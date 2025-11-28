@@ -25,9 +25,7 @@ export default function Customers() {
         <CarouselContent>
           {carouselData.map((element, index) => (
             <CarouselItem key={index} className="flex justify-center sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-              <div className="w-full max-w-[320px] md:max-w-[380px] lg:max-w-[380px] h-[450px] md:h-[380px] lg:h-[410px] p-[30px] bg-white border-1 rounded-[40px]" style={{
-                opacity: 0.8
-              }}>
+              <div className="w-full max-w-[320px] md:max-w-[380px] lg:max-w-[380px] h-[450px] md:h-[380px] lg:h-[410px] p-[30px] bg-[#D9D5DD] border-1 rounded-[40px]">
                 <div className="flex items-center justify-left gap-4">
                   <Image
                     src={element.image}

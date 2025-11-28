@@ -2,8 +2,6 @@ import { personas } from "@/utils/personas";
 import Persona from "./persona";
 import { JSX } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import star from '@/public/star.png';
 
 interface PersonaProps {
   id: number;
@@ -36,7 +34,6 @@ export default function Agents() {
       </div>
       <Link href='#form' className="text-white mt-[91px] mb-[55px] shadow-[0_10px_30px_rgba(0,0,0,0.15)] flex items-center justify-center gap-[10px] text-[16px] px-[32px] py-[12px]  font-semibold w-[380px] h-[44px] rounded-[40px] bg-brand-purple">
         <p className="font-normal text-[18px]">Quero saber mais sobre os agentes</p>
-        <Image src={star} alt="logo" width={32} height={41} />
       </Link>
     </div>
   )
