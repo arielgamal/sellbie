@@ -12,7 +12,7 @@ export default function Header() {
       <div className="hidden md:flex gap-2 sm:gap-3 md:gap-9 text-[10px] md:text-[12px] lg:text-[16px] font-medium text-[#140B1D]">
         {
           headerOptions.map((option, index) => (
-            <Link className="" key={index} href={option.href}>{option.name}</Link>
+            <Link className="" key={index} href={''}>{option.name}</Link>
           ))
         }
       </div>
