@@ -1,7 +1,6 @@
 import Image from "next/image";
 import logo from '@/public/logo.png';
 import { headerOptions } from "@/utils/header-options";
-import Link from "next/link";
 import Login from "./login";
 import { AiOutlineMenu } from "react-icons/ai";
 
@@ -12,7 +11,7 @@ export default function Header() {
       <div className="hidden md:flex gap-2 sm:gap-3 md:gap-9 text-[10px] md:text-[12px] lg:text-[16px] font-medium text-[#140B1D]">
         {
           headerOptions.map((option, index) => (
-            <Link className="" key={index} href={''}>{option.name}</Link>
+            <div className="text-[#a3a3a3]" key={index}>{option.name}</div>
           ))
         }
       </div>
